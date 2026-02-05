@@ -29,20 +29,69 @@ nav a {
 .hero {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 50px;
-    background: #e9f9ef;
+    justify-content: space-between;
+    padding: 80px 10%;
+    background: linear-gradient(135deg, #e9f9ef, #d4f5e3);
+    min-height: 90vh;
 }
 
-.hero img {
-    width: 300px;
-    border-radius: 20px;
+.hero-text {
+    max-width: 500px;
+    margin-top: -30px;
+
 }
 
 .hero-text h1 {
-    font-size: 42px;
-    color: #27ae60;
+    font-size: 80px;
+    color: #1e8449;
+    margin-bottom: 20px;
 }
+
+.hero-text p {
+    font-size: 32px;
+    line-height: 1.6;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.subtitle-box {
+    border: 2px solid #27ae60;   /* green border */
+    padding: 15px 25px;          /* inner space */
+    border-radius: 12px;         /* rounded corners */
+    display: inline-block;       /* fit box to content */
+    font-size: 22px;             /* subtitle font size */
+    color: #2c3e50;              /* text color */
+    margin-top: 20px;            /* spacing from title */
+    place-content: left;
+}
+
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    gap: 35px;             
+    justify-content: flex-start; 
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #1e8449;         
+    font-size: 35px;        
+    transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #1e8449;         /* darker green on hover */
+    transform: scale(1.2);  /* zoom effect on hover */
+}
+
+
+.hero-image img {
+    width: 900px;
+    max-width: 100%;
+    border-radius: 30px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
 
 .section {
     padding: 40px;
@@ -129,5 +178,10 @@ footer {
     button {
         width: 90%;
         max-width: 320px;
+    }
+    
+    .header a {
+        font-size: 24px;
+        gap: 18px;
     }
 }
