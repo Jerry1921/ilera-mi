@@ -172,3 +172,17 @@ function checkSugar() {
     manage stress, and maintain healthy weight.
     `;
 }
+
+
+
+function toggleBlog(id, button) {
+    const blog = document.getElementById(id);
+
+    if (blog.style.maxHeight) {
+        blog.style.maxHeight = null;
+        button.innerText = "Read More";
+    } else {
+        blog.style.maxHeight = blog.scrollHeight + "px";
+        button.innerText = "Show Less";
+    }
+}

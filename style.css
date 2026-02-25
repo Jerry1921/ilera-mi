@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 40px;
+    padding: 15px 30px;
     background: #2ecc71;
     color: white;
 }
@@ -103,8 +103,8 @@ nav a {
 }
 
 .social-icons a:hover {
-    color: #1e8449;         /* darker green on hover */
-    transform: scale(1.2);  /* zoom effect on hover */
+    color: #1e8449;         
+    transform: scale(1.2);  
 }
 
 
@@ -143,6 +143,8 @@ button {
 button:hover {
     background: #219150;
 }
+
+/* Footer */
 
 footer {
     background: #2ecc71;
@@ -253,8 +255,66 @@ textarea {
     color: #1e8449;
 }
 
-/* Health COntainer  */
+/* BLOGS SECTION  */
 
+.blog-section {
+    padding: 50px 40px;
+    text-align: center;
+}
+
+.blog-section h1 {
+    color: #1e8449;
+    margin-bottom: 10px;
+}
+
+.blog-container {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.blog-card {
+    background: white;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    transition: 0.3s;
+    text-align: left;
+}
+
+.blog-card:hover {
+    transform: translateY(-6px);
+}
+
+.blog-card h3 {
+    color: #1e8449;
+}
+
+.blog-card button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    background: #1e8449;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.blog-card button:hover {
+    background: #3A8D77;
+}
+
+/* Blog card extended customizing */
+
+.blog-full {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    margin-top: 10px;
+    font-size: 14px;
+}
 
 
 
