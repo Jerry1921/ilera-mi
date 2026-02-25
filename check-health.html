@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Check Health | Ilera-Mi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">Ilera-Mi</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="check-health.html">Check Health</a></li>
+        </ul>
+    </nav>
+
+    <section class="health-section">
+        <h1><i class="fa-solid fa-circle-chevron-right arrow"></i>Check Your Health</h1>
+
+
+        
+            
+        <section class="section" id="bmi">
+            <h2>BMI Calculator</h2>
+            <input type="number" id="weight" placeholder="Weight (kg)">
+            <input type="number" id="height" placeholder="Height (cm)">
+            <button onclick="calculateBMI()">Calculate BMI</button>
+            <p id="bmiResult"></p>
+            <p id="bmiAdvice"></p>
+        </section>
+
+        
+        <section class="section" id="bp">
+            <h2>Blood Pressure Checker</h2>
+            <input type="number" id="systolic" placeholder="Systolic (e.g. 120)">
+            <input type="number" id="diastolic" placeholder="Diastolic (e.g. 80)">
+            <button onclick="checkBP()">Check BP</button>
+            <p id="bpResult"></p>
+            <p id="bpAdvice"></p>
+        </section>
+
+        <section class="section" id="diabetes">
+            <h2>Diabetes Monitoring</h2>
+            <input type="number" id="sugar" placeholder="Blood Sugar (mg/dL)">
+            <select id="mealType">
+                <option value="before">Before Meal</option>
+                <option value="after">After Meal</option>
+            </select>
+            <button onclick="checkSugar()">Check Level</button>
+            <p id="sugarResult"></p>
+            <p id="sugarAdvice"></p>
+        </section>
+       
+
+
+       
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+one page different for blogs
+front page :
+1. hero section
+2. AI helper
+3. e big images if BMI, DIabetes and pressure and a measure button which leads to next page
+4. next page contains BMI, Diabetes and Pressure
+5. so 3 pages website it will be

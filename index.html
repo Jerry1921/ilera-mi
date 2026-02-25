@@ -14,14 +14,16 @@
 </head>
 <body>
 
-<header class="header">
-    <div class="logo">iM.</div>
-    <nav>
-        <a href="#bmi">BMI</a>
-        <a href="#bp">Blood Pressure</a>
-        <a href="#diabetes">Diabetes</a>
+<!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">IM.</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="check-health.html">Check Health</a></li>
+        </ul>
     </nav>
-</header>
+
+    <!-- HERO SECTION -->
 
 <section class="hero">
     <div class="hero-text">
@@ -40,6 +42,10 @@
         <img src="images/7-Easy-Ways-4.jpg" alt="Healthy Human">
     </div>
 </section>
+
+
+
+<!-- AI CHAT SECTION -->
 
 <section class="section ai-section" id="support">
     <h2>Talk to Ilera-Mi 💚</h2>
@@ -67,36 +73,7 @@
     </div>
 </section>
 
-
-<section class="section" id="bmi">
-    <h2>BMI Calculator</h2>
-    <input type="number" id="weight" placeholder="Weight (kg)">
-    <input type="number" id="height" placeholder="Height (cm)">
-    <button onclick="calculateBMI()">Calculate BMI</button>
-    <p id="bmiResult"></p>
-    <p id="bmiAdvice"></p>
-</section>
-
-<section class="section" id="bp">
-    <h2>Blood Pressure Checker</h2>
-    <input type="number" id="systolic" placeholder="Systolic (e.g. 120)">
-    <input type="number" id="diastolic" placeholder="Diastolic (e.g. 80)">
-    <button onclick="checkBP()">Check BP</button>
-    <p id="bpResult"></p>
-    <p id="bpAdvice"></p>
-</section>
-
-<section class="section" id="diabetes">
-    <h2>Diabetes Monitoring</h2>
-    <input type="number" id="sugar" placeholder="Blood Sugar (mg/dL)">
-    <select id="mealType">
-        <option value="before">Before Meal</option>
-        <option value="after">After Meal</option>
-    </select>
-    <button onclick="checkSugar()">Check Level</button>
-    <p id="sugarResult"></p>
-    <p id="sugarAdvice"></p>
-</section>
+<!-- Footer -->
 
 <footer>
     <p>This app provides general health information only. Consult a doctor for medical advice.</p>
