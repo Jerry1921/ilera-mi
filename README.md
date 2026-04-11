@@ -4,7 +4,7 @@ Your personal AI-powered health companion for a better life.
 
 ---
 
-Overview
+## Overview
 
 **Ilera-Mi** is a modern web-based health assistant that helps users monitor their health and receive emotional support through an AI chatbot.
 
@@ -16,7 +16,7 @@ This project combines:
 
 ---
 
-Features
+## Features
 
 AI Chat Support
 - Real-time conversation using **Google Gemini API**
@@ -28,7 +28,7 @@ AI Chat Support
 
 ---
 
-Health Tools
+## Health Tools
 - BMI Calculator with advice
 - Blood Pressure checker
 - Blood Sugar analysis
