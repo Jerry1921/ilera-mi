@@ -36,7 +36,7 @@ AI Chat Support
 
 ---
 
-### 🎨 User Experience
+### User Experience
 - Smooth typing animation (like ChatGPT)
 - Stop button to control AI response
 - Mobile responsive design
@@ -44,7 +44,7 @@ AI Chat Support
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Frontend | Backend | AI |
 |---------|--------|----|
@@ -54,4 +54,24 @@ AI Chat Support
 
 ---
 
-## 📂 Project Structure
+## Project Structure
+Ilera-Mi/
+│
+├── public/
+│ ├── index.html
+│ ├── style.css
+│ ├── script.js
+│
+├── server.js
+├── package.json
+├── .env
+
+
+---
+
+## Installation & Setup
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/ilera-mi.git
+cd ilera-mi
