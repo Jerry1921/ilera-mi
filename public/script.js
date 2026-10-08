@@ -144,7 +144,7 @@ async function aiRespond() {
     chat.appendChild(typingMsg);
 
     try {
-        const res = await fetch("https://ilera-mi.onrender.com", {
+        const res = await fetch("https://ilera-mi.onrender.com/chat", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
